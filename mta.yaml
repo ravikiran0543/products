@@ -82,7 +82,7 @@ resources:
     path: ./xs-security.json
     service: xsuaa
     service-name: products-xsuaa-service
-    service-plan: application
+    service-plan: space
 - name: products-repo-host
   type: org.cloudfoundry.managed-service
   parameters:
